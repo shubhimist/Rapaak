@@ -1,0 +1,76 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #11cfc9;;
+  color: black;
+  height: 82px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  width: 140px;
+  background-color: black;
+  color: #11cfc9;
+  text-align: left;
+}
+
+.header-list li {
+  float: left;
+  padding: 14px 20px;
+  font-size: 20px;
+}
+
+.container{
+  width: 100%;
+  background-image: url("https://www.analyticsinsight.net/wp-content/uploads/2020/01/online-course-main-800x549.png");
+  background-size: cover;
+  height:600px;
+}
+.top-wrapper{
+  padding-top: 150px;
+}
+.rapaak{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  color:black;
+  background-color: #11cfc9;
+  width:25%;
+  margin-left:35%;
+  opacity: 0.8;
+}
+
+.text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #11cfc9;
+  width:25%;
+  margin-left:35%;
+  opacity: 0.8;
+}
+
+.click2{
+  display: none;
+}
+
+.click3{
+  display: none;
+}
+
+.result{
+  display: none;
+}
